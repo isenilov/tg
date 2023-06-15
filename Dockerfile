@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir --upgrade -r /tg_app/requirements.txt
 
 COPY src /tg_app/app
 
-CMD ["uvicorn", "app.server:app", "--host", "0.0.0.0", "--port", "3000"]
+CMD ["uvicorn", "app.server:app", "--host", "0.0.0.0", "--port", "8000"]
