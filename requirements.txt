@@ -1,0 +1,7 @@
+pandas==2.0.2
+scikit-learn==1.2.2
+tensorflow==2.12.0
+tensorflow-hub==0.13.0
+
+# testing dependencies ideally should be in a separate reuqirements file and to be installed on a CI worker only
+pytest==7.3.2
